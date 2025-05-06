@@ -18,9 +18,3 @@ This service stores its data in a `MongoDB` database.
 - Delete any user's account. API: `DELETE /user-service/admin/user/{userId}`
 - Get details about any user. API: `GET /user-service/admin/user/{userId}`
 - Get all users. API: `GET /user-service/admin/user/`
-
-## Events
-1. Publishes an event for `cart-service` when a user is deleted
-
-## Port
-The service runs on port `8001`
